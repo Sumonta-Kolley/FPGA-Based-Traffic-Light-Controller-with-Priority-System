@@ -10,7 +10,7 @@ entity traffic_controller is
 
         -- Outputs for LEDs [2: Red, 1: Yellow, 0: Green]
         ns_lights       : out STD_LOGIC_VECTOR(2 downto 0); -- North-South lights
-        ew_lights       : out STD_LOGIC_VECTOR(2 downto 0)  -- East-West lights
+        ew_lights       : out STD_LOGIC_VECTOR(2 downto 0)  -- East-West lights.
     );
 end traffic_controller;
 
