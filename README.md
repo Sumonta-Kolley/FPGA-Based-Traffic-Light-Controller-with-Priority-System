@@ -3,7 +3,7 @@ use IEEE.STD_LOGIC_1164.ALL;
 use IEEE.NUMERIC_STD.ALL;
 
 entity traffic_controller is
-    Port (
+    Port ( 
         clk             : in  STD_LOGIC; -- System clock (e.g., 100MHz)
         rst             : in  STD_LOGIC; -- Reset button ('1' to reset)
         emergency_req   : in  STD_LOGIC; -- Emergency switch ('1' for emergency)
